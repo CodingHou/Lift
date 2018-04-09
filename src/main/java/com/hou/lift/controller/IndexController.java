@@ -23,7 +23,7 @@ public class IndexController {
     @Autowired
     private IUserService userService;
 
-    @RequestMapping("/index")
+    @RequestMapping("/sign")
     public String index() {
         return "/sign";
     }
